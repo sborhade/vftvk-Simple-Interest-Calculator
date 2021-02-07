@@ -6,7 +6,7 @@ function compute()
 	var d = new Date();
 	 var n = d.getFullYear()+parseInt(year);
 				
-  var amount=parseInt(principal)+(parseInt(interest)*0.01)*parseInt(year);
+  var amount=parseInt(principal)*(parseInt(interest)*0.01)*parseInt(year);
         var result=`If you deposit <span class="h">${principal}</span>,<br/> 
       at an interest rate of <span class="h">${interest}</span> %.<br/>
       You will receive an amount of<span class="h"> ${amount}</span>,<br/>
