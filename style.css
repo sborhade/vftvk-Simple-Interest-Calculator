@@ -54,7 +54,7 @@ ul {
 .flex-outer li textarea,button {
 	max-width: 300px;
   padding: 10px;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 /*.flex-outer li button {
@@ -78,7 +78,7 @@ ul {
 input,textarea {
 /*	border: none;
 	background: #f2f2f2;*/
-  border-radius:5px;
+  border-radius:10px;
 }
 .h {
   background-color: yellow;
