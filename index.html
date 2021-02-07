@@ -1,16 +1,21 @@
-<html>
-    <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
-    </body>
-</html>
+<form>
+		<ul class="flex-outer">
+			<li>
+				<label for="principal">Amount</label> 
+        <input type="number"  id="principal">
+			</li>
+			<li>
+        <label for="rate">Rate</label> 
+        <input type="number"  id="rate">
+			</li>
+			<li>
+        <label for="years">No. of Years</label> 
+        <input type="number"  id="years">
+			</li>
+			<li>
+        <button onclick="compute()">Compute Interest</button>
+        <label for="Interest"></label>  :                     <span id="result"></span>
+      </li>
+    </ul>
+    </li>
+	</form>
